@@ -1,15 +1,17 @@
+import fresh_tomatoes
+import media
 
-toy_story = media.Movie("Toy Story",
-                        "A movie about a boy and his toys that come to life",
-                        "G",
-                        "http://www.rotoscopers.com/wp-content/uploads/2013/10/Toy-Story-Poster.jpg",
-                        "https://www.youtube.com/watch?v=KYz2wyBy3kc")
+unforgiven = media.Movie("Unforgiven",
+                        "A whippin'? That's all they get after all they done?",
+                        "R",
+                        "https://s-media-cache-ak0.pinimg.com/originals/c5/d6/3d/c5d63dace25bb3554c9ed1c2eb45a806.jpg",
+                        "https://www.youtube.com/watch?v=XDAXGILEdro")
 
-avatar = media.Movie("Avatar",
-                        "A marine lands on an alien planet",
-                        "PG-13",
-                        "http://www.impawards.com/2009/posters/avatar_xlg.jpg",
-                        "https://www.youtube.com/watch?v=d1_JBMrrYw8")
+big_lebowski = media.Movie("The Big Lebowski",
+                        "That rug really tied the room together, man",
+                        "R",
+                        "http://img.moviepostershop.com/the-big-lebowski-movie-poster-1998-1020196337.jpg",
+                        "https://www.youtube.com/watch?v=cd-go0oBF4Y")
 
 pulp_fiction = media.Movie("Pulp Fiction",
                             "Check out the big brain on Brad!",
@@ -35,6 +37,7 @@ guffman = media.Movie("Waiting for Guffman",
                         "http://img.moviepostershop.com/waiting-for-guffman-movie-poster-1996-1010258036.jpg",
                         "https://www.youtube.com/watch?v=fmkjNb3jiJc")
 
-movie_list = [toy_story, avatar, pulp_fiction, true_romance, team_america, guffman]
-
-open_movies_page(movie_list)
+# a list of my favorite movies from the 90s - corresponds to the objects above
+movie_list = [unforgiven, big_lebowski, pulp_fiction, true_romance, team_america, guffman]
+# Generate and display the movies page
+fresh_tomatoes.open_movies_page(movie_list)
