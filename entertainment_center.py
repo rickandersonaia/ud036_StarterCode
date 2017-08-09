@@ -1,6 +1,7 @@
 import fresh_tomatoes
 import media
 
+
 unforgiven = media.Movie("Unforgiven",
                         "A whippin'? That's all they get after all they done?",
                         "R",
@@ -39,5 +40,6 @@ guffman = media.Movie("Waiting for Guffman",
 
 # a list of my favorite movies from the 90s - corresponds to the objects above
 movie_list = [unforgiven, big_lebowski, pulp_fiction, true_romance, team_america, guffman]
+
 # Generate and display the movies page
 fresh_tomatoes.open_movies_page(movie_list)

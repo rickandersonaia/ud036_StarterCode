@@ -1,5 +1,6 @@
 import webbrowser
 
+
 class Movie():
     """ This calss defines a movie object and displays movies in a browser """
 
